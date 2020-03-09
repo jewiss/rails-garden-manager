@@ -26,4 +26,5 @@ garden_names.each do |garden_name|
     plant.save!
     sleep(2)
   end
+  puts "seed finished !"
 end
